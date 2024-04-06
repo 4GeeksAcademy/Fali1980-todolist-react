@@ -10,3 +10,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.list-group-item {
+    border: 1px solid grey;
+    background-color: rgb(229, 205, 140);
+}
+
+.counterTask{
+    background-color: coral;
+}
+
+.list-group-item .fa-circle-xmark {
+    visibility: hidden;
+}
+
+.list-group-item:hover .fa-circle-xmark {
+    visibility: visible;
+}
