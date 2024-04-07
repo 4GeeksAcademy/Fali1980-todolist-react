@@ -19,10 +19,10 @@
     background-color: coral;
 }
 
-.list-group-item .fa-circle-xmark {
+.iconX {
     visibility: hidden;
 }
 
-.list-group-item:hover .fa-circle-xmark {
+.taskLi:hover .iconX {
     visibility: visible;
 }

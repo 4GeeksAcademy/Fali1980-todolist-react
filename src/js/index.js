@@ -7,7 +7,6 @@ import "../styles/index.css";
 
 //import your own components
 import ToDoList from "./component/todolist";
-import TareaForm from "./component/tareaform";
 
 //render your react application
-ReactDOM.render(<TareaForm />, document.querySelector("#app"));
+ReactDOM.render(<ToDoList />, document.querySelector("#app"));
